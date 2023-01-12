@@ -13,3 +13,5 @@
  * 1/10 : 손글씨 데이터의 train, test set의 생성 방법에 대한 고민. 기존처럼 음절 및 단어 데이터에 폰트를 씌워 이미지파일을 생성하고 학습하는 것으로 결정함.
 
  * 1/11 ~ 12 : 학습 속도의 향상을 위해 tensorflow-gpu를 사용하려고 하였으나 계속된 tensorflow import 에러로 cpu사용 결정.
+
+ * 1/13 : https://www.tensorflow.org/install/source_windows#gpu
