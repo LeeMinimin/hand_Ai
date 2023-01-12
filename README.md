@@ -10,3 +10,4 @@
 
  * 1/9 : 오픈소스 개인 환경에서 실행
 
+ * 1/11 ~ 12 : 학습 속도의 향상을 위해 tensorflow-gpu를 사용하려고 하였으나 계속된 tensorflow import 에러로 cpu사용 결정.
