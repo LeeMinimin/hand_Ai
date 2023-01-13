@@ -14,4 +14,5 @@
 
  * 1/11 ~ 12 : 학습 속도의 향상을 위해 tensorflow-gpu를 사용하려고 하였으나 계속된 tensorflow import 에러로 cpu사용 결정.
 
- * 1/13 : https://www.tensorflow.org/install/source_windows#gpu
+ * 1/13 : tensorflow-gpu 사용을 시도하다가 결국 성공함.
+          tensorflow-gpu==1.13.1 버전을 사용하기 때문에 이에 맞는 python3.7버전과, cuda, cudnn버전을 설치.
