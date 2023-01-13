@@ -19,7 +19,7 @@
           
           python에서 json열기 
      
-          ```python
+          ```python3.7
           import json 
           file = json.load(open('D:\\seonghwan\\3_2winter\\053.대용량 손글씨 OCR 데이터\\01.데이터\\1.Training\\라벨링데이터\\라벨\\HW-    OCR\\4.Validation\\P.Paper\\O.Form\\IMG_OCR_53_4PO_09451.json', 'rt', encoding='UTF8')) 
           file.keys() 
