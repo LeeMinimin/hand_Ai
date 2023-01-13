@@ -16,10 +16,11 @@
 
  * 1/13 : tensorflow-gpu 사용을 시도하다가 결국 성공함.
           tensorflow-gpu==1.13.1 버전을 사용하기 때문에 이에 맞는 python3.7버전과, cuda, cudnn버전을 설치.
+          
      python에서 json열기 
-          import json
-          file = json.load(open('D:\\seonghwan\\3_2winter\\053.대용량 손글씨 OCR 데이터\\01.데이터\\1.Training\\라벨링데이터\\라벨\\HW-OCR\\4.Validation\\P.Paper\\O.Form\\IMG_OCR_53_4PO_09451.json', 'rt', encoding='UTF8'))
-          file.keys()
-          file['Annotation']
-          type(file['Images'])
-          etc..
+          import json 
+          file = json.load(open('D:\\seonghwan\\3_2winter\\053.대용량 손글씨 OCR 데이터\\01.데이터\\1.Training\\라벨링데이터\\라벨\\HW-OCR\\4.Validation\\P.Paper\\O.Form\\IMG_OCR_53_4PO_09451.json', 'rt', encoding='UTF8')) 
+          file.keys() 
+          file['Annotation'] 
+          type(file['Images']) 
+          etc.. 
