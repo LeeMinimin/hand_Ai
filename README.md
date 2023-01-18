@@ -23,11 +23,26 @@
  
  '''
  python
+ '''
+ '''
  cd 오픈소스를 클론한 위치
+ '''
+ '''
  mytestenv/Scripts/activate : 내 가상환경 실행
+ '''
+ '''
  pip install -r requirements.txt : 필요한 모듈 설치
+ '''
+ '''
  python ./tools/my-hangul-image-generator.py : 이미지 데이터 생성
+ '''
+ '''
  python ./tools/my-convert-to-tfrecords.py :tfrecord 형식으로 변환
+ '''
+ '''
  python ./hangul_model.py : 모델 훈련
+ '''
+ '''
  python ./tools/classify-hangul.py <Image Path> : 안드로이드 앱에서 사용하기 전 테스트
  '''
+
