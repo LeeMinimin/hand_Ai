@@ -17,14 +17,17 @@
  * 1/13 : tensorflow-gpu 사용을 시도하다가 결국 성공함.
           tensorflow-gpu==1.13.1 버전을 사용하기 때문에 이에 맞는 python3.7버전과, cuda, cudnn버전을 설치.
           
-          python에서 json열기 
-     
-          ```python3.7
-          import json 
-          file = json.load(open('D:\\seonghwan\\3_2winter\\053.대용량 손글씨 OCR 데이터\\01.데이터\\1.Training\\라벨링데이터\\라벨\\HW-    OCR\\4.Validation\\P.Paper\\O.Form\\IMG_OCR_53_4PO_09451.json', 'rt', encoding='UTF8')) 
-          file.keys() 
-          file['Annotation'] 
-          type(file['Images']) 
-          ```
-          
-etc.. 
+ * 1/15 ~ 16 : 기존의 파이썬 파일들을 내 환경에 맞도록 수정함. 또 학습할 이미지들을 확정하고 64만개정도의 데이터 셋 생성
+ 
+ * 1/17 : 최종 발표 준비
+ 
+ '''
+ python
+ cd 오픈소스를 클론한 위치
+ mytestenv/Scripts/activate : 내 가상환경 실행
+ pip install -r requirements.txt : 필요한 모듈 설치
+ python ./tools/my-hangul-image-generator.py : 이미지 데이터 생성
+ python ./tools/my-convert-to-tfrecords.py :tfrecord 형식으로 변환
+ python ./hangul_model.py : 모델 훈련
+ python ./tools/classify-hangul.py <Image Path> : 안드로이드 앱에서 사용하기 전 테스트
+ '''
